@@ -18,6 +18,9 @@ form.addEventListener('submit', function (e) {
     const agendatabela = document.querySelector('tbody');
     agendatabela.innerHTML = linhas;
 
+    inputNomeContato.value = '';
+    inputNumeroContato.value = '';
+
 });
 
 
