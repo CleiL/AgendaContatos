@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 90px;
+    padding-top: 100px;
+}
+/*Cabeçalho*/
+header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+header iconify-icon{
+    margin-right: 20px;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.icone{
+    padding-left: 167px;
+}
+
+/*inserção de dados*/
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+form input{
+    font-size: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    border-radius: 6px;
+    padding: 8px;
+    padding-right: 2px 2px;
+    margin-right: 19px;
+}
+form button {
+    background-color: #3c88c7;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/*tabela agenda*/
+table{
+    display: inline;
+}
+table th{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+tbody td{
+    text-align: center;
+    border-bottom: 1px solid rgb(121, 160, 170);
+}
